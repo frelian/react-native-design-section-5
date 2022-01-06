@@ -8,7 +8,7 @@ export const App = () => {
   return (
       
       // Para ios es necesario usar SafeAreaView para que omita el notch y se vea bien en este caso el texto
-      <SafeAreaView>
+      <SafeAreaView style={{ flex: 1 }}>
         <BoxObjectModelScreen />
       </SafeAreaView>
   )
