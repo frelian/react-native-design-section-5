@@ -8,3 +8,4 @@
 ### 69. Posicion relativa
 ### 70. Posicion absoluta
 ### 72. Flex
+### 73. Flex Direction
