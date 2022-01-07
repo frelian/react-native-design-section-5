@@ -7,3 +7,4 @@
 ### 68. Position - fundamentos del diseño en React Native
 ### 69. Posicion relativa
 ### 70. Posicion absoluta
+### 72. Flex
