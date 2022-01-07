@@ -13,6 +13,16 @@ import { SafeAreaView } from 'react-native'
 // import { AlignSelfScreen } from './src/screens/AlignSelfScreen'
 // import { FlexWrapScreen } from './src/screens/FlexWrapScreen'
 import { ActividadScreen } from './src/screens/Actividad/GuiaScreen';
+// import { UnoScreen } from './src/screens/Actividad/UnoScreen';
+// import { DosScreen } from './src/screens/Actividad/DosScreen';
+// import { TresScreen } from './src/screens/Actividad/TresScreen';
+// import { CuatroScreen } from './src/screens/Actividad/CuatroScreen';
+// import { CincoScreen } from './src/screens/Actividad/CincoScreen';
+// import { SeisScreen } from './src/screens/Actividad/SeisScreen';
+// import { SieteScreen } from './src/screens/Actividad/SieteScreen';
+// import { OchoScreen } from './src/screens/Actividad/OchoScreen';
+// import { NueveScreen } from './src/screens/Actividad/NueveScreen';
+import { DiezScreen } from './src/screens/Actividad/DiezScreen';
 
 
 export const App = () => {
@@ -34,7 +44,17 @@ export const App = () => {
         {/* <AlignItemsScreen /> */}
         {/* <AlignSelfScreen /> */}
         {/* <FlexWrapScreen /> */}
-        <ActividadScreen />
+        {/* <ActividadScreen /> */}
+        {/* <UnoScreen /> */}
+        {/* <DosScreen /> */}
+        {/* <TresScreen/> */}
+        {/* <CuatroScreen /> */}
+        {/* <CincoScreen /> */}
+        {/* <SeisScreen /> */}
+        {/* <SieteScreen /> */}
+        {/* <OchoScreen /> */}
+        {/* <NueveScreen /> */}
+        <DiezScreen />
       </SafeAreaView>
   )
 }
