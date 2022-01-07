@@ -9,7 +9,8 @@ import { SafeAreaView } from 'react-native'
 // import { FlexScreen } from './src/screens/FlexScreen'
 // import { FlexDirectionScreen } from './src/screens/FlexDirectionScreen';
 // import { JustifyContentScreen } from './src/screens/JustifyContentScreen';
-import { AlignItemsScreen } from './src/screens/AlignItemsScreen';
+// import { AlignItemsScreen } from './src/screens/AlignItemsScreen';
+import { AlignSelfScreen } from './src/screens/AlignSelfScreen'
 
 
 export const App = () => {
@@ -24,7 +25,8 @@ export const App = () => {
         {/* <FlexScreen /> */}
         {/* <FlexDirectionScreen /> */}
         {/* <JustifyContentScreen /> */}
-        <AlignItemsScreen />
+        {/* <AlignItemsScreen /> */}
+        <AlignSelfScreen />
       </SafeAreaView>
   )
 }

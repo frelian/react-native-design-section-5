@@ -11,3 +11,4 @@
 ### 73. Flex Direction
 ### 74. Justify Content
 ### 75. Align Items
+### 76. Align Self
