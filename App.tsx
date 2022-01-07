@@ -11,14 +11,19 @@ import { SafeAreaView } from 'react-native'
 // import { JustifyContentScreen } from './src/screens/JustifyContentScreen';
 // import { AlignItemsScreen } from './src/screens/AlignItemsScreen';
 // import { AlignSelfScreen } from './src/screens/AlignSelfScreen'
-import { FlexWrapScreen } from './src/screens/FlexWrapScreen'
+// import { FlexWrapScreen } from './src/screens/FlexWrapScreen'
+import { ActividadScreen } from './src/screens/Actividad/GuiaScreen';
 
 
 export const App = () => {
   return (
       
       // Para ios es necesario usar SafeAreaView para que omita el notch y se vea bien en este caso el texto
-      <SafeAreaView style={{ flex: 1 }}>  
+      <SafeAreaView 
+        style={{ 
+          flex: 1,
+          backgroundColor: '#28425B' // Fix para "quitar" el notch de IOs
+        }}>  
         {/* <BoxObjectModelScreen /> */}
         {/* <DimensionesScreen /> */}
         {/* <PositionScreen /> */}
@@ -28,7 +33,8 @@ export const App = () => {
         {/* <JustifyContentScreen /> */}
         {/* <AlignItemsScreen /> */}
         {/* <AlignSelfScreen /> */}
-        <FlexWrapScreen />
+        {/* <FlexWrapScreen /> */}
+        <ActividadScreen />
       </SafeAreaView>
   )
 }

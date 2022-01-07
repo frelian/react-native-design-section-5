@@ -13,3 +13,4 @@
 ### 75. Align Items
 ### 76. Align Self
 ### 77. Flex Wrap
+### 78. Preparacion para la actividad
